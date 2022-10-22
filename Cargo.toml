@@ -1,0 +1,16 @@
+[workspace]
+members = [
+  "polars",
+  "polars/polars-core",
+  "polars/polars-io",
+  "polars/polars-lazy",
+  "polars/polars-time",
+  "polars/polars-utils",
+  "polars/polars-ops",
+  "examples/read_csv",
+  "examples/read_parquet",
+  "examples/python_rust_compiled_function",
+]
+
+[patch.crates-io]
+# packed_simd_2 = { git = "https://github.com/rust-lang/packed_simd", rev = "e57c7ba11386147e6d2cbad7c88f376aab4bdc86" }
